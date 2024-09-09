@@ -10,3 +10,15 @@
   border: none;
   text-decoration: none !important;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.lh-38 {
+  line-height: 38px;
+}

@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg">
+        <div className="container">
+          <Link className="navbar-brand" to="/">
             <img src="assets/images/Logo.png" style={{ width: "180px" }} />
-          </a>
+          </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -17,36 +18,34 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="who_we_are.html">
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">
                   Who We Are
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="SOX_Implementation.html">
+              <li className="nav-item">
+                <Link className="nav-link" to="/sox-implementation">
                   SOX Implementation
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="industries.html">
+              <li className="nav-item">
+                <Link className="nav-link" to="/industries">
                   Industries
-                </a>
+                </Link>
               </li>
             </ul>
-            <form class="d-flex">
-              <a href="contact-us.html">
-                <button class="btn btn-primary">Contact Us</button>
-              </a>
-            </form>
+            <Link to="/sox-implementation">
+              <button className="btn btn-primary">Contact Us</button>
+            </Link>
           </div>
         </div>
       </nav>
