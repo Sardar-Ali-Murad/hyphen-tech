@@ -5,7 +5,7 @@ const Hero = () => {
     <div>
       <header className="">
         <div className="row py-5 ">
-          <div className="col-lg-6" style={{ paddingLeft: '140px' }}>
+          <div className="col-lg-6 home-hero">
             <h1 className="main-heading">
               Sarbanes Oxley (SOX) Implementation Specialists
             </h1>
