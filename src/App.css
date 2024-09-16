@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Cabin&family=PT+Sans&family=Quicksand&family=Roboto:wght@300;400&family=Tilt+Neon&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Cabin&family=PT+Sans&family=Quicksand&family=Roboto:wght@300;400&family=Tilt+Neon&display=swap"); */
 
 * {
-  font-family: "Tilt Neon", sans-serif !important;
+  /* font-family: "Tilt Neon", sans-serif !important; */
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -10,17 +10,19 @@
   border: none;
   text-decoration: none !important;
 }
-
-.logo-footer {
+.leader-card{
+  height: 950px;
+}
+.logo-footer{
   width: 200px;
 }
 .d-flex {
   display: flex;
 }
-.footer-text {
+.footer-text{
   font-size: 14px;
 }
-.address-box {
+.address-box{
   border-left: 2px solid #f47920;
 }
 
@@ -30,10 +32,6 @@
 
 .lh-38 {
   line-height: 38px;
-}
-
-.home-hero {
-  padding-left: 140px;
 }
 
 .w-180 {
@@ -198,8 +196,5 @@
   }
   .main-heading {
     font-size: 2.8rem;
-  }
-  .home-hero {
-    padding-left: 30px !important;
   }
 }
