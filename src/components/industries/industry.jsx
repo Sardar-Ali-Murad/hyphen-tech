@@ -138,7 +138,6 @@ const Industry = () => {
     setSelectedItem(array?.find((items) => items?.heading === currentButton));
   }, [currentButton]);
 
-  console.log(selectedItem);
   return (
     <div>
       <section>
@@ -173,7 +172,7 @@ const Industry = () => {
             </div>
           </div>
         </div>
-        <div className="container-fluid p-0">
+        <div className="container-fluid p-0 overflow-x-hidden">
           <div className="tab-content" id="newTabContent">
             <div className="tab-pane fade show active" tabIndex="0">
               <div className="bg-black">
