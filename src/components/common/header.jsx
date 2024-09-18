@@ -54,7 +54,7 @@ const Header = () => {
                   </Link>
                 </li>
               </ul>
-              <Link to="/sox-implementation">
+              <Link to="/contact">
                 <button className="btn btn-primary">Contact Us</button>
               </Link>
             </div>
