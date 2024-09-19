@@ -160,7 +160,6 @@ a {
 .nav-card-header {
   border-radius: 10px 10px 0px 0px;
   background: #f47920;
-  box-shadow: 5px 4px 4px 0px #00000040;
 }
 
 .border-left-theme-2 {
@@ -486,6 +485,10 @@ button.nav-link {
   display: flex;
 }
 
+.inter{
+  font-family: "Inter", sans-serif !important;
+}
+
 @media (max-width: 992px) {
   .custom-reverse {
     flex-direction: column-reverse;
@@ -528,6 +531,9 @@ button.nav-link {
 
   .w-lg-50 {
     width: 50%;
+  }
+  .w-lg-60 {
+    width: 80%;
   }
 
   .header-2 {

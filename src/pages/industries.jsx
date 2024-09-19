@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "../components/industries/hero";
 import Industry from "../components/industries/industry";
-import Contact from "../components/common/contact";
 import NewsLetter from "../components/common/newsletter";
 import Header from "../components/common/header";
 import ConsultationDialog from "../components/common/consultation-dialog";
@@ -20,8 +19,7 @@ const Industries = () => {
       <Header />
       <Hero />
       <Industry />
-      <Contact />
-      <NewsLetter newsletter={true} setOpen={setOpen} />
+      <NewsLetter newsletter={true} setOpen={setOpen} industryPage={true} />
     </div>
   );
 };

@@ -47,8 +47,9 @@ const Hero = ({ setOpen }) => {
       <header className="overflow-x-hidden">
         <div className="row">
           <div className="col-lg-6  home-hero">
-            <h1 className="main-heading">
-              Sarbanes Oxley (SOX) Implementation Specialists
+            <h1 className="main-heading ">
+              <span className="no-wrap">Sarbanes Oxley (SOX)</span>{" "}
+              Implementation Specialists
             </h1>
             <h4 className="fs-4 my-4">
               Big 4 Expertise at a Fraction of the Cost.
@@ -65,7 +66,7 @@ const Hero = ({ setOpen }) => {
               data-bs-target="#exampleModal"
               onClick={() => setOpen(true)}
             >
-              Schedule a Consultation
+              SCHEDULE A CONSULTATION
             </button>
           </div>
           <div className="col-lg-6">
@@ -79,7 +80,10 @@ const Hero = ({ setOpen }) => {
         <div className="container-fluid p-0">
           <img src="assets/images/divider.png" className="img-fluid w-100" />
         </div>
-        <h2 className="fw-normal w-lg-50 text-center mx-auto my-5">
+        <h2
+          className="fw-normal w-lg-50 text-center mx-auto my-5"
+          style={{ color: "#5D6771" }}
+        >
           We have the right people with the right expertise and a single vision
           – <span className="fw-bold">your success.</span>
         </h2>

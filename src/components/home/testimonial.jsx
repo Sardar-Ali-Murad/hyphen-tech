@@ -20,7 +20,7 @@ const Testimonial = () => {
           <div className="row">
             <div className="col-12 text-center">
               <h1 className="main-heading">Tailored Industry Experience</h1>
-              <p className="px-lg-5 w-lg-50 mx-auto text-secondary fs-20">
+              <p className="px-lg-5 w-lg-50 mx-auto text-secondary fs-20 inter">
                 Leading companies from various industries partner with Hyphen to
                 help them grow and scale their business.
               </p>
@@ -122,7 +122,7 @@ const Testimonial = () => {
                         </div>
                         <h3 className="mt-4">MUAZZAM UR REHMAN </h3>
                         <p className="m-0 fs-7 fw-bold text-secondary">
-                          CFO, <br />
+                          CFO <br />
                           Taweelah RO Desalination Company
                         </p>
                         <p className="mt-4 fs-5 text-dark">

@@ -25,7 +25,7 @@ const About = () => {
       <Quote />
       <Leadership />
       <Consultation setOpen={setOpen} />
-      <Newsletter newsletter={false} setOpen={setOpen} />
+      <Newsletter newsletter={false} setOpen={setOpen} industryPage={false} />
     </div>
   );
 };

@@ -22,7 +22,7 @@ const Consultation = ({ setOpen }) => {
                   data-bs-target="#exampleModal"
                   onClick={() => setOpen(true)}
                 >
-                  Schedule a Free Consultation
+                  SCHEDULE A FREE CONSULTATION
                 </button>
               </div>
             </div>
