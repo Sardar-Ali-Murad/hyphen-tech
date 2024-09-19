@@ -1,6 +1,6 @@
 import React from "react";
 
-const SOX = () => {
+const SOX = ({setOpen}) => {
   return (
     <div>
       <section className="bg-light py-5">
@@ -18,6 +18,7 @@ const SOX = () => {
                   type="button"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
+                  onClick={()=>setOpen(true)}
                 >
                   Schedule a FREE Consultation
                 </button>

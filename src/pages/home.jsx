@@ -9,19 +9,28 @@ import Contact from "../components/common/contact";
 import Checklist from "../components/sox-implementation/checklist";
 import Blogs from "../components/common/blogs";
 import Header from "../components/common/header";
+import ConsultationDialog from "../components/common/consultation-dialog";
 
 const Home = () => {
+  const [open, setOpen] = React.useState(false);
   return (
     <div>
+      {open && (
+        <div className="model-parent" onClick={() => setOpen(false)}>
+          <div className="model-wrap">
+            <ConsultationDialog setOpen={setOpen} />
+          </div>
+        </div>
+      )}
       <Header />
-      <Hero />
+      <Hero setOpen={setOpen} />
       <Checklist />
-      <SOX />
+      <SOX setOpen={setOpen} />
       <Testimonial />
       <Approach />
       <Leadership />
       <Blogs />
-      <Newsletter newsletter={true} />
+      <Newsletter newsletter={true} setOpen={setOpen} />
       <Contact />
     </div>
   );

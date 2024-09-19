@@ -65,6 +65,7 @@ const Form = () => {
                         id="standard-basic"
                         label="first Name"
                         variant="standard"
+                        className="w-100"
                       />
                     </div>
                   </div>
@@ -74,6 +75,7 @@ const Form = () => {
                         id="standard-basic"
                         label="last Name"
                         variant="standard"
+                        className="w-100"
                       />
                     </div>
                   </div>
@@ -86,6 +88,7 @@ const Form = () => {
                         id="standard-basic"
                         label="work Email"
                         variant="standard"
+                        className="w-100"
                       />
                     </div>
                   </div>
@@ -95,6 +98,7 @@ const Form = () => {
                         id="standard-basic"
                         label="phone Number"
                         variant="standard"
+                        className="w-100"
                       />
                     </div>
                   </div>
@@ -107,6 +111,7 @@ const Form = () => {
                         id="standard-basic"
                         label="company"
                         variant="standard"
+                        className="w-100"
                       />
                     </div>
                   </div>

@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
 
-const Newsletter = ({ newsletter }) => {
+const Newsletter = ({ newsletter, setOpen }) => {
   const [isLoading, setIsLoading] = useState(false);
 
   const initialValues = {
@@ -123,6 +123,7 @@ const Newsletter = ({ newsletter }) => {
                     type="button"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
+                    onClick={() => setOpen(true)}
                   >
                     Schedule a Free Consultation
                   </button>
