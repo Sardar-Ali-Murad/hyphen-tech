@@ -32,7 +32,7 @@ const ConsultationDialog = () => {
       if (isLoading) return;
       setIsLoading(true);
       try {
-        await axios.post("https://hyphen-back.vercel.app/users", values);
+        await axios.post("https://hyphen-back.vercel.app/api/v1/users", values);
         toast.success(
           "Thank you for expressing interest in our product! We’re thrilled to provide you with a personalised demo. Our team will be in touch shortly to schedule a demonstration tailored to your needs. Stay tuned"
         );

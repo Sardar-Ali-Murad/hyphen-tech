@@ -34,7 +34,7 @@ const Newsletter = ({ newsletter, setOpen, industryPage }) => {
     if (isLoading) return;
     setIsLoading(true);
     try {
-      await axios.post("https://hyphen-back.vercel.app/consultation", values);
+      await axios.post("https://hyphen-back.vercel.app/api/v1/consultation", values);
       toast.success(
         "Thank you for expressing interest in our product! We’re thrilled to provide you with a personalised demo. Our team will be in touch shortly to schedule a demonstration tailored to your needs. Stay tuned"
       );
@@ -57,7 +57,7 @@ const Newsletter = ({ newsletter, setOpen, industryPage }) => {
       setIsLoading(true);
       try {
         setIsLoading(false);
-        await axios.post("https://hyphen-back.vercel.app/newsLetter", { email });
+        await axios.post("https://hyphen-back.vercel.app/api/v1/newsLetter", { email });
         toast.success(
           "Thank you for subscribing! We will notify you of new updates."
         );
