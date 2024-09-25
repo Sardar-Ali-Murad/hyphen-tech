@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import parse from "html-react-parser";
 import moment from "moment";
-import { CircularProgress } from "@mui/material";
+import parse from "html-react-parser";
 import { toast } from "react-toastify";
 
 const Industry = () => {
