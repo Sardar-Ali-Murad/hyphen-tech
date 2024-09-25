@@ -35,7 +35,6 @@ const Form = () => {
         toast.success("Message sent successfully!");
         resetForm();
       } catch (error) {
-        console.error("Error submitting consultation:", error);
         toast.error("Failed to send message. Please try again later.");
       } finally {
         setIsLoading(false);
