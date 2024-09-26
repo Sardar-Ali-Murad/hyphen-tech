@@ -102,7 +102,7 @@ const Leadership = () => {
                   <div className="p-3 font-inter">
                     <h3 className="fw-bold">Leah Owens</h3>
                     <p className="text-secondary leader-title">
-                      Partner - AML & Compliance Specialist
+                      Principal Consultant Compliance
                     </p>
                     <p className="mt-4 text-secondary mb-1">
                       Leah is an accomplished expert in Anti-Money Laundering
