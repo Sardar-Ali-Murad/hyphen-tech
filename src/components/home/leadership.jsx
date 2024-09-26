@@ -35,11 +35,15 @@ const Leadership = () => {
                       governance for large corporations.
                     </p>
                     <p>
-                      <a href="#" className="read-more">
+                      <a
+                        href="https://www.linkedin.com/in/faheempiracha/"
+                        target="__blank"
+                        className="read-more"
+                      >
                         Read more
                       </a>
                     </p>
-                    <div className="">
+                    {/* <div className="">
                       <a href="#" className="read-more">
                         <svg
                           className="me-3"
@@ -89,7 +93,7 @@ const Leadership = () => {
                           />
                         </svg>
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -114,11 +118,15 @@ const Leadership = () => {
                       </span>
                     </p>
                     <p>
-                      <a href="#" className="read-more">
+                      <a
+                        href="https://www.linkedin.com/in/faheempiracha/"
+                        target="__blank"
+                        className="read-more"
+                      >
                         Read more
                       </a>
                     </p>
-                    <div className="">
+                    {/* <div className="">
                       <a href="#" className="read-more">
                         <svg
                           className="me-3"
@@ -168,7 +176,7 @@ const Leadership = () => {
                           />
                         </svg>
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
