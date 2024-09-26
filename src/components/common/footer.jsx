@@ -79,7 +79,7 @@ const Footer = () => {
               <ul className={"address-box"}>
                 <li className={"ms-3"}>
                   <p>
-                    167-169 Great Portland Street London <br />
+                    3 Deneside, Great Yarmouth, England NR 30 2HL <br />
                   </p>
                 </li>
                 <li className={"ms-3"}>
