@@ -18,7 +18,7 @@ const Hero = () => {
               <div className="ps-lg-5 mt-5">
                 <h1 className="main-heading no-wrap">We are Hyphen.</h1>
                 <h3 className="fw-600">
-                  Flexible, transparent, accountable and impact driven
+                  Openess, Balanced and Honesty driven
                   consultancy.
                 </h3>
               </div>
