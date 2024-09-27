@@ -181,7 +181,7 @@ const Industry = () => {
                     key={ind}
                     onClick={() => navigate(`/blog?id=${blog?._id}`)}
                   >
-                    <div className="bg-white rounded">
+                    <div className="bg-white img-rounded">
                       <img src={blog?.image} className="img-fluid w-100" />
                       <div className="p-3">
                         <p className="my-3 blog-date">
