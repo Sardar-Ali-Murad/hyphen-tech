@@ -182,10 +182,7 @@ const Industry = () => {
                     onClick={() => navigate(`/blog?id=${blog?._id}`)}
                   >
                     <div className="bg-white rounded">
-                      <img
-                        src="assets/images/blog-1.png"
-                        className="img-fluid w-100"
-                      />
+                      <img src={blog?.image} className="img-fluid w-100" />
                       <div className="p-3">
                         <p className="my-3 blog-date">
                           {moment.utc(blog.updatedAt).format("MMMM Do YYYY")}
