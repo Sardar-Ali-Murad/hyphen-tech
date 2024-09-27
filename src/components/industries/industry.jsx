@@ -172,6 +172,8 @@ const Industry = () => {
             <div className="row mt-5">
               {loading ? (
                 <h1>Loading....</h1>
+              ) : blogs?.length === 0 ? (
+                <h1>No Blogs To Show In This Category</h1>
               ) : (
                 blogs?.map((blog, ind) => (
                   <div
