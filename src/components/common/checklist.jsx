@@ -2,7 +2,6 @@ import React from "react";
 
 const Checklist = ({ lightBg }) => {
   return (
-    {/*
     <div>
       <section className={`py-2 ${lightBg ? "bg-light" : ""}`}>
         <div className="container">
@@ -33,7 +32,6 @@ const Checklist = ({ lightBg }) => {
         </div>
       </section>
     </div>
-    */}
   );
 };
 
