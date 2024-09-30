@@ -1,9 +1,9 @@
 import React from "react";
 
-{/*const Checklist = ({ lightBg }) => {
+const Checklist = ({ lightBg }) => {
   return (
-    <div>
     {/*
+    <div>
       <section className={`py-2 ${lightBg ? "bg-light" : ""}`}>
         <div className="container">
           <div className="row align-items-center">
@@ -33,6 +33,7 @@ import React from "react";
         </div>
       </section>
     </div>
+    */}
   );
 };
 
