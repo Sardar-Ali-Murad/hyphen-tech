@@ -180,6 +180,35 @@ const Leadership = () => {
                   </div>
                 </div>
               </div>
+            <div className="col-lg-5">
+                <div className="border leader-card">
+                  <img
+                    src="assets/images/leader-3.png"
+                    className="img-fluid w-100"
+                  />
+                  <div className="p-3 font-inter">
+                    <h3 className="fw-bold">Omer Ahmed</h3>
+                    <p className="text-secondary leader-title">
+                      Head of Technology Solutions
+                    </p>
+                    <p className="mt-4 text-secondary mb-1">
+                      Omer brings a wealth of technical expertise in digital
+                      transformation and technology strategy, with a focus on
+                      driving innovation and ensuring scalable solutions
+                      tailored to client needs in diverse industries.
+                    </p>
+                    <p>
+                      <a
+                        href="https://www.linkedin.com/in/omerahmed/"
+                        target="__blank"
+                        className="read-more"
+                      >
+                        Read more
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
