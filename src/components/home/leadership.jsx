@@ -113,9 +113,6 @@ const Leadership = () => {
                       and compliance, with extensive experience in developing
                       and managing AML frameworks for fintech companies and
                       ensuring regulatory compliance across various sectors.
-                      <span className="hidden">
-                        ensuring regulatory compliance across various.
-                      </span>
                     </p>
                     <p>
                       <a
@@ -189,7 +186,7 @@ const Leadership = () => {
                   <div className="p-3 font-inter">
                     <h3 className="fw-bold">Omer Ahmed</h3>
                     <p className="text-secondary leader-title">
-                      Head of Technology Solutions
+                      UK Advisory Partner
                     </p>
                     <p className="mt-4 text-secondary mb-1">
                       Omer brings a wealth of technical expertise in digital
