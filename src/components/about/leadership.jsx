@@ -20,7 +20,7 @@ const Leadership = () => {
                   <div className="row">
                     <div className="col-md-5">
                       <img
-                        src="assets/images/leader-1.png"
+                        src="assets/images/faheempiracha.png"
                         className="img-fluid w-100"
                       />
                       <div className="p-3">
@@ -80,7 +80,7 @@ const Leadership = () => {
                   <div className="row">
                     <div className="col-md-5">
                       <img
-                        src="assets/images/leader-2.png"
+                        src="assets/images/leahowens.png"
                         className="img-fluid w-100"
                       />
                       <div className="p-3">
@@ -112,7 +112,7 @@ const Leadership = () => {
                   <div className="row">
                     <div className="col-md-5">
                       <img
-                        src="assets/images/leader-3.png"
+                        src="assets/images/omerahmed.png"
                         className="img-fluid w-100"
                       />
                       <div className="p-3">
