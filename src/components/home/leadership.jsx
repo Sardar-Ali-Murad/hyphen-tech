@@ -16,11 +16,12 @@ const Leadership = () => {
           </div>
           <div className="col-12">
             <div className="row gap-143">
-              <div className="col-lg-5">
+              <div className="col-lg-4">
                 <div className="border leader-card">
                   <img
                     src="assets/images/leader-1.png"
                     className="img-fluid w-100"
+                    alt="Faheem Piracha"
                   />
                   <div className="p-3 font-inter">
                     <h3 className="fw-bold">Faheem Piracha</h3>
@@ -43,65 +44,15 @@ const Leadership = () => {
                         Read more
                       </a>
                     </p>
-                    {/* <div className="">
-                      <a href="#" className="read-more">
-                        <svg
-                          className="me-3"
-                          width="48"
-                          height="48"
-                          viewBox="0 0 48 48"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M32 16C35.1826 16 38.2348 17.2643 40.4853 19.5147C42.7357 21.7652 44 24.8174 44 28V42H36V28C36 26.9391 35.5786 25.9217 34.8284 25.1716C34.0783 24.4214 33.0609 24 32 24C30.9391 24 29.9217 24.4214 29.1716 25.1716C28.4214 25.9217 28 26.9391 28 28V42H20V28C20 24.8174 21.2643 21.7652 23.5147 19.5147C25.7652 17.2643 28.8174 16 32 16Z"
-                            stroke="#1E1E1E"
-                            strokeWidth="4"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M12 18H4V42H12V18Z"
-                            stroke="#1E1E1E"
-                            strokeWidth="4"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z"
-                            stroke="#1E1E1E"
-                            strokeWidth="4"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      </a>
-                      <a href="#" className="read-more">
-                        <svg
-                          width="48"
-                          height="48"
-                          viewBox="0 0 48 48"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M44 12C44 9.8 42.2 8 40 8H8C5.8 8 4 9.8 4 12M44 12V36C44 38.2 42.2 40 40 40H8C5.8 40 4 38.2 4 36V12M44 12L24 26L4 12"
-                            stroke="#1E1E1E"
-                            strokeWidth="4"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      </a>
-                    </div> */}
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5">
+              <div className="col-lg-4">
                 <div className="border leader-card">
                   <img
                     src="assets/images/leader-2.png"
                     className="img-fluid w-100"
+                    alt="Leah Owens"
                   />
                   <div className="p-3 font-inter">
                     <h3 className="fw-bold">Leah Owens</h3>
@@ -113,89 +64,36 @@ const Leadership = () => {
                       and compliance, with extensive experience in developing
                       and managing AML frameworks for fintech companies and
                       ensuring regulatory compliance across various sectors.
-                      <span className="hidden">
-                        ensuring regulatory compliance across various.
-                      </span>
                     </p>
                     <p>
                       <a
-                        href="https://www.linkedin.com/in/faheempiracha/"
+                        href="https://www.linkedin.com/in/leahowens/"
                         target="__blank"
                         className="read-more"
                       >
                         Read more
                       </a>
                     </p>
-                    {/* <div className="">
-                      <a href="#" className="read-more">
-                        <svg
-                          className="me-3"
-                          width="48"
-                          height="48"
-                          viewBox="0 0 48 48"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M32 16C35.1826 16 38.2348 17.2643 40.4853 19.5147C42.7357 21.7652 44 24.8174 44 28V42H36V28C36 26.9391 35.5786 25.9217 34.8284 25.1716C34.0783 24.4214 33.0609 24 32 24C30.9391 24 29.9217 24.4214 29.1716 25.1716C28.4214 25.9217 28 26.9391 28 28V42H20V28C20 24.8174 21.2643 21.7652 23.5147 19.5147C25.7652 17.2643 28.8174 16 32 16Z"
-                            stroke="#1E1E1E"
-                            strokeWidth="4"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M12 18H4V42H12V18Z"
-                            stroke="#1E1E1E"
-                            strokeWidth="4"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z"
-                            stroke="#1E1E1E"
-                            strokeWidth="4"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      </a>
-                      <a href="#" className="read-more">
-                        <svg
-                          width="48"
-                          height="48"
-                          viewBox="0 0 48 48"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M44 12C44 9.8 42.2 8 40 8H8C5.8 8 4 9.8 4 12M44 12V36C44 38.2 42.2 40 40 40H8C5.8 40 4 38.2 4 36V12M44 12L24 26L4 12"
-                            stroke="#1E1E1E"
-                            strokeWidth="4"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      </a>
-                    </div> */}
                   </div>
                 </div>
               </div>
-            <div className="col-lg-5">
+              <div className="col-lg-4">
                 <div className="border leader-card">
                   <img
-                    src="assets/images/omerahmed.png"
+                    src="assets/images/leader-3.png" // Make sure to set the correct image path
                     className="img-fluid w-100"
+                    alt="Omer Ahmed"
                   />
                   <div className="p-3 font-inter">
                     <h3 className="fw-bold">Omer Ahmed</h3>
                     <p className="text-secondary leader-title">
-                      Head of Technology Solutions
+                      Principal Consultant Technology
                     </p>
                     <p className="mt-4 text-secondary mb-1">
-                      Omer brings a wealth of technical expertise in digital
-                      transformation and technology strategy, with a focus on
-                      driving innovation and ensuring scalable solutions
-                      tailored to client needs in diverse industries.
+                      Omer is a seasoned technology consultant with expertise in
+                      implementing innovative tech solutions for businesses,
+                      driving transformation and efficiency across various
+                      sectors.
                     </p>
                     <p>
                       <a
@@ -218,3 +116,4 @@ const Leadership = () => {
 };
 
 export default Leadership;
+
