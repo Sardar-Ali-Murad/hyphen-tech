@@ -183,7 +183,7 @@ const Leadership = () => {
             <div className="col-lg-5">
                 <div className="border leader-card">
                   <img
-                    src="assets/images/leader-3.png"
+                    src="assets/images/omerahmed.png"
                     className="img-fluid w-100"
                   />
                   <div className="p-3 font-inter">
