@@ -19,7 +19,7 @@ const Leadership = () => {
               <div className="col-lg-5">
                 <div className="border leader-card">
                   <img
-                    src="assets/images/leader-1.png"
+                    src="assets/images/faheempiracha.png"
                     className="img-fluid w-100"
                   />
                   <div className="p-3 font-inter">
@@ -100,7 +100,7 @@ const Leadership = () => {
               <div className="col-lg-5">
                 <div className="border leader-card">
                   <img
-                    src="assets/images/leader-2.png"
+                    src="assets/images/leahowens.png"
                     className="img-fluid w-100"
                   />
                   <div className="p-3 font-inter">
@@ -199,7 +199,7 @@ const Leadership = () => {
                     </p>
                     <p>
                       <a
-                        href="https://www.linkedin.com/in/omerahmed/"
+                        href="https://www.linkedin.com/in/omar-ahmed-2bb59611b/"
                         target="__blank"
                         className="read-more"
                       >
