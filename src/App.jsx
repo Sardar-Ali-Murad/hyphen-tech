@@ -9,6 +9,8 @@ import SoxImplementation from "./pages/sox-implementation";
 import Industries from "./pages/industries";
 import Contact from "./pages/contact";
 import Blog from "./pages/blog";
+import ExitIntentModal from "./components/ExitIntentModal"; // Add this import
+
 
 const App = () => {
   return (
@@ -24,6 +26,7 @@ const App = () => {
           <Route path="/blog" element={<Blog />} />
         </Routes>
         <Footer />
+         <ExitIntentModal /> {/* Add this line just before closing BrowserRouter */}
       </BrowserRouter>
     </div>
   );
