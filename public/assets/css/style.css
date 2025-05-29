@@ -552,34 +552,3 @@ button.nav-link {
     margin-left: -60px;
   }
 }
-.webinars-hero {
-  background-color: #003366;
-  color: #fff;
-  padding: 4rem 2rem;
-  text-align: center;
-}
-
-.webinars-section {
-  margin-top: 3rem;
-}
-
-.webinar-card {
-  background: #fff;
-  border-left: 5px solid #007bff;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-.newsletter-form input {
-  padding: 0.75rem;
-  width: 60%;
-  max-width: 300px;
-  margin-right: 1rem;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-
-.newsletter-form button {
-  padding: 0.75rem 1.5rem;
-}
