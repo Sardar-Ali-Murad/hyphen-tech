@@ -394,7 +394,7 @@ const Procurement = () => {
                                                                     decoding="async"
                                                                     width="529"
                                                                     height="749"
-                                                                    src="https://github.com/Sardar-Ali-Murad/hyphen-tech/blob/5916b2c824040391de751515c0e3de0b269c031a/public/assets/images/tool.svg"
+                                                                    src="assets/images/tool.svg"
                                                                     class="attachment-2048x2048 size-2048x2048 wp-image-5782"
                                                                     alt=""
                                                                     srcset="
