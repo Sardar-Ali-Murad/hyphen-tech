@@ -394,12 +394,12 @@ const Procurement = () => {
                                                                     decoding="async"
                                                                     width="529"
                                                                     height="749"
-                                                                    src="https://hyphenconsultancy.com/wp-content/uploads/2024/10/Risk-integration-Book-cover-e1728640294178.png"
+                                                                    src="https://github.com/Sardar-Ali-Murad/hyphen-tech/blob/5916b2c824040391de751515c0e3de0b269c031a/public/assets/images/tool.svg"
                                                                     class="attachment-2048x2048 size-2048x2048 wp-image-5782"
                                                                     alt=""
                                                                     srcset="
-                                              https://hyphenconsultancy.com/wp-content/uploads/2024/10/Risk-integration-Book-cover-e1728640294178.png         529w,
-                                              https://hyphenconsultancy.com/wp-content/uploads/2024/10/Risk-integration-Book-cover-e1728640294178-212x300.png 212w
+                                              https://github.com/Sardar-Ali-Murad/hyphen-tech/blob/5916b2c824040391de751515c0e3de0b269c031a/public/assets/images/tool.svg         529w,
+                                              https://github.com/Sardar-Ali-Murad/hyphen-tech/blob/5916b2c824040391de751515c0e3de0b269c031a/public/assets/images/tool.svg 212w
                                             "
                                                                     sizes="(max-width: 529px) 100vw, 529px"
                                                                 />
