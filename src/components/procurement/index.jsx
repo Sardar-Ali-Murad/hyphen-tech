@@ -398,10 +398,7 @@ const Procurement = () => {
                                                                     class="attachment-2048x2048 size-2048x2048 wp-image-5782"
                                                                     alt=""
                                                                     srcset="
-                                              public/assets/images/tool.svg         529w,
-                                              public/assets/images/tool.svg 212w
-                                            "
-                                                                    sizes="(max-width: 529px) 100vw, 529px"
+                            
                                                                 />
                                                             </div>
                                                         </div>
