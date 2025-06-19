@@ -1,1 +1,109 @@
+/* --- General Page Styles --- */
+.procurement-page {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
 
+/* --- Hero Section --- */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f76b1c 0%, #f55523 100%);
+  overflow: hidden; /* Prevents horizontal scroll on mobile */
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+}
+
+/* --- Content Column (Left Side) --- */
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-content h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content .subtitle {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.hero-content .description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 550px;
+}
+
+/* --- CTA Button --- */
+.cta-button {
+  background-color: #00c6a7; /* A contrasting teal color */
+  color: white;
+  padding: 15px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block; /* Allows for margin and padding */
+}
+
+.cta-button:hover {
+  background-color: #00a58e;
+  transform: translateY(-2px);
+}
+
+/* --- Image Column (Right Side) --- */
+.hero-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 70vh;
+}
+
+/* --- Responsive Design (for Mobile) --- */
+@media (max-width: 992px) {
+    .hero-content h2 {
+        font-size: 2.8rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column; /* Stack content on top of image */
+    text-align: center;
+  }
+
+  .hero-content h2 {
+    font-size: 2.2rem;
+  }
+  
+  .hero-image-container {
+    display: none; /* Hide the image on mobile for a cleaner look */
+    /* Or if you want to show it:
+    margin-top: 40px;
+    order: -1; // Move image to the top
+    */
+  }
+}
