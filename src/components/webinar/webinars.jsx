@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import SingleWebinarCard from "./single-webinar"
 
 
-const GetWebinars = ({ setId, setOpen, changed }) => {
+const GetWebinars = ({ setShowWebinarDialog, setSelectedWebinarId }) => {
     const [webinars, setWebinars] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -26,7 +26,7 @@ const GetWebinars = ({ setId, setOpen, changed }) => {
 
     useEffect(() => {
         fetchWebinars();
-    }, [changed]);
+    }, []);
 
     return (
         <Box sx={{ padding: 3 }}>
@@ -39,14 +39,15 @@ const GetWebinars = ({ setId, setOpen, changed }) => {
                             <Grid item xs={12} sm={6} md={4} key={webinar._id}>
                                 <SingleWebinarCard
                                     webinar={webinar}
-                                    setId={setId}
-                                    setOpen={setOpen}
+                                    setShowWebinarDialog={setShowWebinarDialog}
+                                    setSelectedWebinarId={setSelectedWebinarId}
                                 />
                             </Grid>
                         ))
                     ) : (
                         <p style={{ marginLeft: "15px" }}>No webinars found.</p>
                     )}
+
                 </Grid>
             )}
         </Box>

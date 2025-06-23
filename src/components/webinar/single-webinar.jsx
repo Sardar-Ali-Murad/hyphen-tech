@@ -5,16 +5,14 @@ import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 import Collapse from "@mui/material/Collapse";
+import { Tooltip } from '@mui/material';
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import CardActions from "@mui/material/CardActions";
-import DeleteIcon from "@mui/icons-material/Delete";
 import parse from "html-react-parser";
 import moment from "moment";
-import { useNavigate } from "react-router-dom";
 
 // Expand button styling
 const ExpandMore = styled((props) => {
@@ -28,8 +26,7 @@ const ExpandMore = styled((props) => {
     transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
 }));
 
-const SingleWebinarCard = ({ webinar, setOpen, setId }) => {
-    const navigate = useNavigate();
+const SingleWebinarCard = ({ webinar, setShowWebinarDialog, setSelectedWebinarId }) => {
     const [expanded, setExpanded] = useState(false);
 
     const handleExpandClick = () => {
@@ -41,7 +38,7 @@ const SingleWebinarCard = ({ webinar, setOpen, setId }) => {
             <CardHeader
                 avatar={
                     <Avatar sx={{ bgcolor: red[500] }} aria-label="webinar">
-                        {webinar.guestName?.[0]?.toUpperCase() || "G"}
+                        {webinar.speakerName?.[0]?.toUpperCase() || "G"}
                     </Avatar>
                 }
                 title={webinar.title}
@@ -56,29 +53,43 @@ const SingleWebinarCard = ({ webinar, setOpen, setId }) => {
                 />
             )}
             <CardContent>
+                <button
+                    type="submit"
+                    className="btn btn-primary w-100 my-2"
+                    onClick={() => {
+                        setSelectedWebinarId(webinar._id)
+                        setShowWebinarDialog(true)
+                    }}
+                >
+                    Register for this Webinar
+                </button>
                 <Typography variant="subtitle2" color="text.secondary">
-                    Guest: {webinar.guestName}
+                    Speaker: {webinar.speakerName}
                 </Typography>
                 <Typography variant="subtitle2" color="text.secondary">
                     Company: {webinar.companyName}
                 </Typography>
                 <Typography variant="subtitle2" color="text.secondary">
-                    Email: {webinar.email}
+                    Date: {moment.utc(webinar.date).format("MMMM Do YYYY")}
                 </Typography>
+
                 <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
                     {parse(webinar.description).length > 100
                         ? parse(webinar.description).substring(0, 100) + "..."
                         : parse(webinar.description)}
                 </Typography>
             </CardContent>
-            <ExpandMore
-                expand={expanded}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
-                aria-label="show more"
-            >
-                <ExpandMoreIcon />
-            </ExpandMore>
+            <Tooltip title="Click to see more">
+
+                <ExpandMore
+                    expand={expanded}
+                    onClick={handleExpandClick}
+                    aria-expanded={expanded}
+                    aria-label="show more"
+                >
+                    <ExpandMoreIcon />
+                </ExpandMore>
+            </Tooltip>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                     <Typography paragraph>{parse(webinar.description)}</Typography>
