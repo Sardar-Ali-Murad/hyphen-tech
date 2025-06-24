@@ -33,6 +33,13 @@ const SingleWebinarCard = ({ webinar, setShowWebinarDialog, setSelectedWebinarId
         setExpanded(!expanded);
     };
 
+    const getPlainText = (html) => {
+        const tempDiv = document.createElement("div");
+        tempDiv.innerHTML = html;
+        return tempDiv.textContent || tempDiv.innerText || "";
+    };
+
+
     return (
         <Card sx={{ maxWidth: 345 }}>
             <CardHeader
@@ -74,9 +81,11 @@ const SingleWebinarCard = ({ webinar, setShowWebinarDialog, setSelectedWebinarId
                 </Typography>
 
                 <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
-                    {parse(webinar.description).length > 100
-                        ? parse(webinar.description).substring(0, 100) + "..."
-                        : parse(webinar.description)}
+                    {parse(
+                        getPlainText(webinar.description).length > 100
+                            ? getPlainText(webinar.description).substring(0, 100) + "..."
+                            : getPlainText(webinar.description)
+                    )}
                 </Typography>
             </CardContent>
             <Tooltip title="Click to see more">
