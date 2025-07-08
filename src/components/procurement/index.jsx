@@ -27,7 +27,7 @@ const Procurement = () => {
                             Take our free, expert-designed Procurement Maturity Assessment to evaluate the effectiveness, efficiency, and control environment of your procure-to-pay cycle. In just 5 minutes, you’ll receive a personalized report and actionable recommendations to help you level up.
                         </p>
                         <a
-                            href="https://abilite.co/form/"
+                            href="https://tools.hyphenadvisory.uk/"
                             className="cta-button"
                             target="_blank"
                             rel="noopener noreferrer"
